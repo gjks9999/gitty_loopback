@@ -1,0 +1,71 @@
+{
+  "name": "drives",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "jobs_count": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "start_date": {
+      "type": "date",
+      "required": true
+    },
+    "end_date": {
+      "type": "date",
+      "required": true
+    },
+    "jd": {
+      "type": "string",
+      "required": true
+    },
+    "pre_req": {
+      "type": "string",
+      "required": true
+    },
+    "post_req": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "salary": {
+      "type": "string",
+      "required": true
+    },
+    "job_applied": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "job_approved": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "user_ids": {
+      "type": [
+        "number"
+      ]
+    },
+    "resumes": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
