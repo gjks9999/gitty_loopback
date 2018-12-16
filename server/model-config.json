@@ -46,5 +46,9 @@
   "drives": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "photos":{
+    "dataSource": "filestore-mongo",
+    "public": true
   }
 }
