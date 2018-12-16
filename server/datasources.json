@@ -12,14 +12,6 @@
     "name": "mongodb",
     "user": "root",
     "connector": "mongodb"
-  },
-  "filestore-mongo":{
-    "host":"54.184.102.107",
-    "port":27017,
-    "database": "gitty",
-    "provider":"filestore-mongo",
-    "connector": "loopback-component-storage-mongo"
-
-
   }
+  
 }
