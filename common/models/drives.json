@@ -15,6 +15,11 @@
       "required": true,
       "default": 0
     },
+    "image": {
+      "type": "string",
+      "required": true,
+      "default": "https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-252etsvks7o0jr481l9vofbeh2-20160317015130.Medi.jpeg"
+    },
     "start_date": {
       "type": "date",
       "required": true
