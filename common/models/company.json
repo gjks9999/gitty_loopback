@@ -6,31 +6,176 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
-      "required": true,
-      "default": "No name"
-    },
-    "email": {
+    
+    "userid": {
       "type": "string",
       "required": true
     },
-    "gitty_id": {
-      "type": "number",
-      "required": true
-    },
-    "drives_count": {
-      "type": "number",
-      "required": true,
-      "default": 0
-    },
-    "image": {
-      "type": "number",
-      "required": true
-    },
-    "role": {
+    "comp-email": {
       "type": "string",
       "required": true
+    },
+    "comp-name": {
+      "type": "string",
+      "required": true
+    },
+    "comp-logo": {
+      "type": "string",
+      "required": true
+    },
+    "comp-coverpic": {
+      "type": "string"
+    },
+    "comp-url": {
+      "type": "string"
+    },
+    "comp-hqloc": {
+      "type": "string"
+    },
+    "comp-market": {
+      "type": "string",
+      "required": true
+    },
+    "comp-year": {
+      "type": "string",
+      "required": true
+    },
+    "comp-loc": {
+      "type": "string",
+      "required": true
+    },
+    "comp-no-emp": {
+      "type": "string"
+    },
+    "comp-no-engg": {
+      "type": "string"
+    },
+    "comp-des": {
+      "type": "string"
+    },
+    "comp-mission": {
+      "type": "string"
+    },
+    "comp-values": {
+      "type": "string"
+    },
+    "comp-culture": {
+      "type": "string"
+    },
+    "comp-mk-ad": {
+      "type": "string"
+    },
+    "comp-video": {
+      "type": "string"
+    },
+    "comp-founders-count": {
+      "type": "number",
+      "required": true
+    },
+    "comp-founder-names": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-founder-titles": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-founder-urls": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-founder-des": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-board-members-count": {
+      "type": "number",
+      "required": true
+    },
+    "comp-board-names": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-board-titles": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-board-urls": {
+      "type": [
+        "string"
+      ]
+    },
+    "notable-emp-count": {
+      "type": "number",
+      "required": true
+    },
+    "comp-notable-names": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-notable-titles": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-notable-urls": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-notable-des": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-testimonials-count": {
+      "type": "number",
+      "required": true
+    },
+    "comp-test-names": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-test-titles": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-test-urls": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-test-testimonies": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-interview-duration": {
+      "type": "string",
+      "required": true
+    },
+    "comp-interview-count": {
+      "type": "number",
+      "required": true
+    },
+    "comp-interview-round-type": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp-interview-des": {
+      "type": [
+        "string"
+      ]
     }
   },
   "validations": [],
