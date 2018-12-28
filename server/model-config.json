@@ -35,10 +35,7 @@
     "dataSource": "mongodb",
     "public": false
   },
-  "student": {
-    "dataSource": "mongodb",
-    "public": true
-  },
+  
   "company": {
     "dataSource": "mongodb",
     "public": true
@@ -49,6 +46,10 @@
   },
   "container": {
     "dataSource": "storage",
+    "public": true
+  },
+  "candidate": {
+    "dataSource": "mongodb",
     "public": true
   }
 }

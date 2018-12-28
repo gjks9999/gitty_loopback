@@ -14,10 +14,10 @@
     "connector": "mongodb"
   },
   "storage": {
-    "name": "storage",
     "host": "54.184.102.107",
     "port": 27017,
     "database": "gitty",
-     "connector": "loopback-component-storage-mongo"
+    "name": "storage",
+    "connector": "loopback-component-storage-mongo"
   }
 }

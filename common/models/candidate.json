@@ -1,0 +1,97 @@
+{
+  "name": "candidate",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+  	 "can_profile_pic": {
+      "type": "string"
+    },
+    "can_headline": {
+      "type": "string"
+    },
+    "can_summery": {
+      "type": "string"
+    },
+    "can_ex_comp_name": {
+      "type": "string"
+    },
+    "can_ex_comp_job_title": {
+      "type": "string"
+    },
+    "can_ex_comp_start_date": {
+      "type": "date"
+    },
+    "can_ex_comp_end_date": {
+      "type": "date"
+    },
+    "can_ex_comp_des": {
+      "type": "string"
+    },
+    "can_edu_inst_name": {
+      "type": "string"
+    },
+    "can_edu_degree": {
+      "type": "string"
+    },
+    "can_edu_field_of_study": {
+      "type": "string"
+    },
+    "can_edu_start_date": {
+      "type": "date"
+    },
+    "can_edu_end_date": {
+      "type": "date"
+    },
+    "can_edu_des": {
+      "type": "string"
+    },
+    "can_work_status": {
+      "type": "string"
+    },
+    "can_usdod": {
+      "type": "string"
+    },
+    "can_sal_expection": {
+      "type": "string"
+    },
+    "can_currently_interviewing": {
+      "type": "string"
+    },
+    "can_need_of_sponsorship": {
+      "type": "string"
+    },
+    "can_management_experiece": {
+      "type": "string"
+    },
+    "can_startup_exp": {
+      "type": "string"
+    },
+    "can_year_of_experience": {
+      "type": "string"
+    },
+    "can_funding_status": {
+      "type": "string"
+    },
+    "can_job_title": {
+      "type": "string"
+    },
+    "can_job_types": {
+      "type": "string"
+    },
+    "can_market_options": {
+      "type": "string"
+    },
+    "can_skills": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
