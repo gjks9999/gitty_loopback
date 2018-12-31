@@ -58,15 +58,10 @@
       "required": true,
       "default": 0
     },
-    "user_ids": {
-      "type": [
-        "number"
-      ]
-    },
-    "resumes": {
-      "type": [
-        "string"
-      ]
+    "company_id":{
+      "type": "string",
+      "required": true
+    
     }
   },
   "validations": [],
