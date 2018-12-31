@@ -9,7 +9,7 @@
     "type": "string",
     "required": true
   },
-  "company-id": {
+  "company_id": {
     "type": "string",
     "required": true
   },
