@@ -35,7 +35,6 @@
     "dataSource": "mongodb",
     "public": false
   },
-  
   "company": {
     "dataSource": "mongodb",
     "public": true
@@ -49,6 +48,10 @@
     "public": true
   },
   "candidate": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "application-form": {
     "dataSource": "mongodb",
     "public": true
   }

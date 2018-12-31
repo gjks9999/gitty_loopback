@@ -6,7 +6,7 @@
     "validateUpsert": true
   },
   "properties": {
-  	 "can_profile_pic": {
+    "can_profile_pic": {
       "type": "string"
     },
     "can_headline": {

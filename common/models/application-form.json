@@ -1,0 +1,43 @@
+{
+  "name": "application-form",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {"candidate_id": {
+    "type": "string",
+    "required": true
+  },
+  "company-id": {
+    "type": "string",
+    "required": true
+  },
+  "comp_name": {
+    "type": "string",
+    "required": true
+  },
+  "status": {
+    "type": "string"
+  },
+  "location": {
+    "type": "string",
+    "required": true
+  },
+  "resume_link": {
+    "type": "string",
+    "required": true
+  },
+  "drive_id": {
+    "type": "string",
+    "required": true
+  },
+  "candidate_name": {
+    "type": "string"
+  }
+},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
