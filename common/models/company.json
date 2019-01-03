@@ -10,168 +10,168 @@
       "type": "string",
       "required": true
     },
-    "comp-email": {
+    "comp_email": {
       "type": "string",
       "required": true
     },
-    "comp-name": {
+    "comp_name": {
       "type": "string",
       "required": true
     },
-    "comp-logo": {
+    "comp_logo": {
       "type": "string",
       "required": true
     },
-    "comp-coverpic": {
+    "comp_coverpic": {
       "type": "string"
     },
-    "comp-url": {
+    "comp_url": {
       "type": "string"
     },
-    "comp-hqloc": {
+    "comp_hqloc": {
       "type": "string"
     },
-    "comp-market": {
+    "comp_market": {
       "type": "string",
       "required": true
     },
-    "comp-year": {
+    "comp_year": {
       "type": "string",
       "required": true
     },
-    "comp-loc": {
+    "comp_loc": {
       "type": "string",
       "required": true
     },
-    "comp-no-emp": {
+    "comp_no_emp": {
       "type": "string"
     },
-    "comp-no-engg": {
+    "comp_no_engg": {
       "type": "string"
     },
-    "comp-des": {
+    "comp_des": {
       "type": "string"
     },
-    "comp-mission": {
+    "comp_mission": {
       "type": "string"
     },
-    "comp-values": {
+    "comp_values": {
       "type": "string"
     },
-    "comp-culture": {
+    "comp_culture": {
       "type": "string"
     },
-    "comp-mk-ad": {
+    "comp_mk_ad": {
       "type": "string"
     },
-    "comp-video": {
+    "comp_video": {
       "type": "string"
     },
-    "comp-founders-count": {
+    "comp_founders_count": {
       "type": "number",
       "required": true
     },
-    "comp-founder-names": {
+    "comp_founder_names": {
       "type": [
         "string"
       ]
     },
-    "comp-founder-titles": {
+    "comp_founder_titles": {
       "type": [
         "string"
       ]
     },
-    "comp-founder-urls": {
+    "comp_founder_urls": {
       "type": [
         "string"
       ]
     },
-    "comp-founder-des": {
+    "comp_founder_des": {
       "type": [
         "string"
       ]
     },
-    "comp-board-members-count": {
+    "comp_board_members_count": {
       "type": "number",
       "required": true
     },
-    "comp-board-names": {
+    "comp_board_names": {
       "type": [
         "string"
       ]
     },
-    "comp-board-titles": {
+    "comp_board_titles": {
       "type": [
         "string"
       ]
     },
-    "comp-board-urls": {
+    "comp_board_urls": {
       "type": [
         "string"
       ]
     },
-    "notable-emp-count": {
+    "notable_emp_count": {
       "type": "number",
       "required": true
     },
-    "comp-notable-names": {
+    "comp_notable_names": {
       "type": [
         "string"
       ]
     },
-    "comp-notable-titles": {
+    "comp_notable_titles": {
       "type": [
         "string"
       ]
     },
-    "comp-notable-urls": {
+    "comp_notable_urls": {
       "type": [
         "string"
       ]
     },
-    "comp-notable-des": {
+    "comp_notable_des": {
       "type": [
         "string"
       ]
     },
-    "comp-testimonials-count": {
+    "comp_testimonials_count": {
       "type": "number",
       "required": true
     },
-    "comp-test-names": {
+    "comp_test_names": {
       "type": [
         "string"
       ]
     },
-    "comp-test-titles": {
+    "comp_test_titles": {
       "type": [
         "string"
       ]
     },
-    "comp-test-urls": {
+    "comp_test_urls": {
       "type": [
         "string"
       ]
     },
-    "comp-test-testimonies": {
+    "comp_test_testimonies": {
       "type": [
         "string"
       ]
     },
-    "comp-interview-duration": {
+    "comp_interview_duration": {
       "type": "string",
       "required": true
     },
-    "comp-interview-count": {
+    "comp_interview_count": {
       "type": "number",
       "required": true
     },
-    "comp-interview-round-type": {
+    "comp_interview_round_type": {
       "type": [
         "string"
       ]
     },
-    "comp-interview-des": {
+    "comp_interview_des": {
       "type": [
         "string"
       ]
