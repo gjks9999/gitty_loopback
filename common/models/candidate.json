@@ -15,6 +15,9 @@
     "can_loc": {
       "type": "string"
     },
+    "can_email": {
+      "type": "string"
+    },
     
     "can_headline": {
       "type": "string"
