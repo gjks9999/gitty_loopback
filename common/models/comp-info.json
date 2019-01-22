@@ -1,0 +1,22 @@
+{
+  "name": "comp_info",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "comp_name": {
+      "type": "string",
+      "required": true
+    },
+    "comp_email": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
