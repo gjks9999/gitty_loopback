@@ -175,7 +175,23 @@
       "type": [
         "string"
       ]
+    },
+    "comp_funding_status": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp_benefits": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp_perks": {
+      "type": [
+        "string"
+      ]
     }
+
   },
   "validations": [],
   "relations": {},
