@@ -40,7 +40,7 @@
   },
   "companny_email": {
     "type": "string"
-  },
+  }, 
   "candidate_email": {
     "type": "string"
   }
