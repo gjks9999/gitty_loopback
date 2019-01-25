@@ -34,7 +34,17 @@
   },
   "candidate_name": {
     "type": "string"
+  },
+  "applied_date": {
+    "type": "string"
+  },
+  "companny_email": {
+    "type": "string"
+  },
+  "candidate_email": {
+    "type": "string"
   }
+},
 },
   "validations": [],
   "relations": {},
