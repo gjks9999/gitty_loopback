@@ -178,17 +178,17 @@
     },
     "comp_funding_status": {
       "type": [
-        "string"
+        "boolean"
       ]
     },
     "comp_benefits": {
       "type": [
-        "string"
+        "boolean"
       ]
     },
     "comp_perks": {
       "type": [
-        "string"
+        "boolean"
       ]
     }
 
