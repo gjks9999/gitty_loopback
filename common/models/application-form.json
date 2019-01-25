@@ -44,7 +44,7 @@
   "candidate_email": {
     "type": "string"
   }
-},
+
 },
   "validations": [],
   "relations": {},
