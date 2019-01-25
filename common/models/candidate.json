@@ -91,6 +91,9 @@
     "can_job_types": {
       "type": "string"
     },
+    "can_resume_link": {
+      "type": "string"
+    },
     "can_market_options": {
       "type": "string"
     },
