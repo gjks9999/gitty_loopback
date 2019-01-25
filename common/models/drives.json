@@ -6,62 +6,83 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "companyname": {
       "type": "string",
-      "required": true
-    },
-    "jobs_count": {
-      "type": "number",
-      "required": true,
-      "default": 0
-    },
-    "image": {
-      "type": "string",
-      "required": true,
-      "default": "https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-252etsvks7o0jr481l9vofbeh2-20160317015130.Medi.jpeg"
-    },
-    "start_date": {
-      "type": "date",
-      "required": true
-    },
-    "end_date": {
-      "type": "date",
       "required": true
     },
     "jd": {
       "type": "string",
       "required": true
     },
-    "pre_req": {
+    "siklls": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "visaSponsorship": {
       "type": "string",
       "required": true
     },
-    "post_req": {
+    "remoteWork": {
       "type": "string",
       "required": true
+    },
+    "startdate": {
+      "type": "string",
+      "required": true
+    },
+    "enddate": {
+      "type": "string",
+      "required": true
+    },
+    "minsalary": {
+      "type": "string",
+      "required": true
+    },
+    "maxsalary": {
+      "type": "string",
+      "required": true
+    },
+    "MinEquity": {
+      "type": "string",
+      "required": true
+    },
+    "MaxEquity": {
+      "type": "string",
+      "required": true
+    },
+    "yearlyBonus": {
+      "type": "string",
+      "required": true,
+      "default": "https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-252etsvks7o0jr481l9vofbeh2-20160317015130.Medi.jpeg"
+
     },
     "location": {
       "type": "string",
       "required": true
     },
-    "salary": {
+    "Department": {
       "type": "string",
       "required": true
     },
-    "job_applied": {
-      "type": "number",
-      "required": true,
-      "default": 0
-    },
-    "job_approved": {
-      "type": "number",
-      "required": true,
-      "default": 0
-    },
-    "company_id":{
+    "JobOwner": {
       "type": "string",
       "required": true
-    
+    },
+    "QUESTIONS": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "post_job_img": {
+      "type": "string",
+      "required": true
+    },
+    "comp_email": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
