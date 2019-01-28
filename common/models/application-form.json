@@ -59,6 +59,9 @@
   }, 
   "candidate_image": {
     "type": "string"
+  }, 
+  "candidate_exp": {
+    "type": "string"
   }
 
 },
