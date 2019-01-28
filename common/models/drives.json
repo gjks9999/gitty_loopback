@@ -83,6 +83,10 @@
     "comp_email": {
       "type": "string",
       "required": true
+    },
+    "job_role": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
