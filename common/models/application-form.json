@@ -56,6 +56,9 @@
   }, 
   "candidate_disbility_status": {
     "type": "string"
+  }, 
+  "candidate_image": {
+    "type": "string"
   }
 
 },
