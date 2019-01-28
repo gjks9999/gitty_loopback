@@ -5,7 +5,8 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {"candidate_id": {
+  "properties":
+   {"candidate_id": {
     "type": "string",
     "required": true
   },
@@ -42,6 +43,18 @@
     "type": "string"
   }, 
   "candidate_email": {
+    "type": "string"
+  }, 
+  "candidate_gender": {
+    "type": "string"
+  }, 
+  "candidate_hispanic_lation": {
+    "type": "string"
+  }, 
+  "candidate_veteras_status": {
+    "type": "string"
+  }, 
+  "candidate_disbility_status": {
     "type": "string"
   }
 
