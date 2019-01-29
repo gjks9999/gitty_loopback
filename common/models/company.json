@@ -91,6 +91,11 @@
         "string"
       ]
     },
+    "comp_founder_image_list": {
+      "type": [
+        "string"
+      ]
+    },
     "comp_board_members_count": {
       "type": "number",
       "required": true
@@ -106,6 +111,11 @@
       ]
     },
     "comp_board_urls": {
+      "type": [
+        "string"
+      ]
+    },
+    "comp_board_image_list": {
       "type": [
         "string"
       ]
@@ -134,6 +144,11 @@
         "string"
       ]
     },
+     "comp_notable_image_list": {
+      "type": [
+        "string"
+      ]
+    },
     "comp_testimonials_count": {
       "type": "number",
       "required": true
@@ -154,6 +169,11 @@
       ]
     },
     "comp_test_testimonies": {
+      "type": [
+        "string"
+      ]
+    },
+     "comp_test_image_list": {
       "type": [
         "string"
       ]
